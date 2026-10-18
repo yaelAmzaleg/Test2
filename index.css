@@ -1,0 +1,41 @@
+body{
+    background-color: #13131A;
+    width:100vw;
+    height:100vh ;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.HeaderOfSite{
+display: flex;
+justify-content: space-between;
+align-items:center;
+background-color: black;
+color:#0B6227;
+padding:15px 30px;
+border-bottom: 1px solid #1f2833
+}
+.main_page{
+
+}
+.rader_section{
+
+}
+.action_bottom{
+
+}
+.all_card{
+
+}
+.banner{
+
+}
+.bottom_nav{
+
+}
