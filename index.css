@@ -19,7 +19,76 @@ align-items:center;
 background-color: black;
 color:#0B6227;
 padding:15px 30px;
-border-bottom: 1px solid #1f2833
+border-bottom: 1px solid #1f2833;
+width:80%;
+/* height: 10%; */
+} 
+.figure_logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B6227;
+    color:black;
+    width:60px;
+    height: 60px;
+    border-radius: 40px;
+    border:1px solid black;
+    font-size: 1.2rem;
+        transition: all 0.3s ease;
+}
+.figure_logo:hover{
+    border-color: #0B6227;
+    box-shadow: 0 0 12px rgba(0, 255, 102, 0.4);
+    transform: scale(1.05);
+}
+.logo{
+    margin:0;
+}
+.H1_sigint{
+    color:#0B6227;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.secure-badge{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    background-color: #0d2315;
+    border: 1px solid #0B6227;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color:#0B6227;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.secure-badge:hover{
+    background-color: #12351f;
+    border-color: #00ff66;
+    box-shadow: 0 0 15px rgba(0, 255, 102, 0.3);
+}
+.status-dot{
+    width:8px;
+    height: 8px;
+    background-color:#0B6227 ;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #0B6227;
+    animation: pulse-dot 1.5s infinite;
+}
+@keyframes pulse-dot{
+    0%{
+transform: scale(0.95);
+opacity: 0.8;
+    }
+    50%{
+transform: scale(1.2);
+ opacity: 1; 
+ box-shadow: 0 0 12px currentColor;
+    }
+    100%{
+        transform: scale(0.95);
+opacity: 0.8;
+    }
 }
 .main_page{
 
